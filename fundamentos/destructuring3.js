@@ -7,4 +7,4 @@ const obj = { max: 50, min: 40 }
 console.log(rand(obj))
 console.log(rand({ min: 955 }))
 console.log(rand({}))
-//console.log(rand()) Não vai exibir nada porque não foi repassado o parâmetro
+//console.log(rand()) //Não vai exibir nada porque vai tentar desestruturar algo que não foi definido
