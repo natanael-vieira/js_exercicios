@@ -10,9 +10,9 @@ function exec() {
 const cliente = {
     nome: 'Natanael',
     idade: 36,
-    peso: 90,
+    peso: 78,
     endereco: {
-        logradouro: 'Rua Muito Legal',
+        logradouro: 'Rua João de Barro',
         numero: 219
     }
 }
