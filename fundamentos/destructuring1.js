@@ -4,7 +4,7 @@ const pessoa = {
     nome: 'Thais',
     idade: 36,
     endereco: {
-        logradouro: 'Rua Bem Melhor',
+        logradouro: 'Rua João de Barro',
         numero: 219
     }
 }
