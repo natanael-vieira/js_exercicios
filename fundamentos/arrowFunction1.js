@@ -18,6 +18,7 @@ ola = () => {
     return 'Olá'
 }
 
-ola = () => 'Olá'
-ola = _ => 'Olá' /* Neste caso eu posso usar os parênteses ou apenas o underscore, porque como não quero passar nenhum parâmento posso ignorar ele e incluir apenas o underscore, 
-mesmo sendo ignorado ele acaba sendo um parâmetro, pois o JS ignora */
+ola = () => 'Olá' /*Função sem parâmetros, usando apenas os parênteses */
+ola = _ => 'Olá' /* Neste caso eu posso usar apenas o underscore como parâmetro, porque como posso ignorar ele no momento da chamada, 
+mesmo sendo ignorado ele acaba sendo um parâmetro, pois o JS permite chamar ignorando os parâmetros */
+console.log(ola())
