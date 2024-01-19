@@ -10,3 +10,15 @@ console.log(pilotos)
 
 pilotos.unshift('Hamilton')
 console.log(pilotos)
+
+pilotos.splice(2, 0, 'Bottas', 'Massa')
+console.log(pilotos)
+
+pilotos.splice(3, 1)
+console.log(pilotos)
+
+const algunsPilotos = pilotos.slice(2) // retorna um novo array gerado a partir deste método 
+console.log(algunsPilotos)
+
+const algunsPilotos2 = pilotos.slice(1, 4) // quando passado o último índice, sempre será excluído do array
+console.log(algunsPilotos2)
