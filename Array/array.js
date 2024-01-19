@@ -19,10 +19,12 @@ aprovados[8] = 'Doroteia'
 console.log(aprovados.length)
 console.log(aprovados)
 console.log(aprovados[7] === undefined)
-aprovados.sort() // serve para ordenar os itens
+aprovados.sort() // serve para ordenar os itens, mas altera o array
 console.log(aprovados)
 
 delete aprovados[4]
 console.log(aprovados)
 
 aprovados = ['Thais', 'Abigail', 'Rute']
+aprovados.splice(1, 2, "Abigail e Rute", "Rute e Abigail") // Serve para excluir um índice, incluir um novo item ou fazer os dois ao mesmo tempo
+console.log(aprovados)
